@@ -18,7 +18,7 @@ function App() {
   // UseEffect que actualiza el restante
 
   useEffect(() => {
-    if (creargasto == true) {
+    if (creargasto === true) {
 
       //Agrega el nuevo presupuesto
       guardarGastos([
